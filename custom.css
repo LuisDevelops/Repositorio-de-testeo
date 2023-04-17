@@ -1,0 +1,31 @@
+.masthead{
+  min-height: 80vh;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.masthead .container{
+  overflow: hidden;
+}
+.masthead h1{
+  color: white;
+  position: absolute;
+  top: 5rem;
+  max-width: 550px;
+  padding-right: 1.5rem ;
+}
+.color-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 48%, rgba(0,0,0,0.7063200280112045) 100%);
+}
+
+@media (max-width: 991.98px) {
+  .masthead {
+    min-height: 30vh;
+  }
+}
